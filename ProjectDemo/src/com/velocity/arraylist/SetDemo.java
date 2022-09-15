@@ -10,10 +10,8 @@ public class SetDemo {
 		st.add(11);
 		st.add(22);
 		
-		Iterator<Integer> itr = st.iterator();
-		while (itr.hasNext()) {
-			Integer num = (Integer) itr.next();
-			System.out.println(num);
+		for (Integer integer : st) {
+			System.out.println(st);
 		}
 	}
 
