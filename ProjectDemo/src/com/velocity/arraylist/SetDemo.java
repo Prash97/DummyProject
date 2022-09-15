@@ -1,7 +1,6 @@
 package com.velocity.arraylist;
 
 import java.util.HashSet;
-import java.util.Iterator;
 
 public class SetDemo {
 
